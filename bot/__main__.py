@@ -51,7 +51,7 @@ def stats(update, context):
             f'<b>Download:</b> {recv}\n\n'\
             f'<b>CPU:</b> {cpuUsage}%\n'\
             f'<b>RAM:</b> {mem_p}%\n'\
-            f'<b>DISK:</b> {disk}%\n\n'\
+            f'<b>DISK:</b> {disk}%\n\n'
     sendMessage(stats, context.bot, update.message)
 
 
